@@ -1,0 +1,16 @@
+body{
+    width: 200px;
+}
+
+.actions-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+button{
+    width: 90% ;
+    margin: 5px;
+}
