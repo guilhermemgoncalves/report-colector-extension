@@ -5,5 +5,10 @@
     "description": "Uma extensão simples para o Google Chrome",
     "action": {
         "default_popup": "popup.html"
-    }
+    },
+    "options_page": "config.html",
+    "permissions": [
+      "storage",
+      "activeTab"
+    ]
 }

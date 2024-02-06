@@ -6,3 +6,8 @@ if(reportSelected == null){
 }else {
     divReportSelected.innerText =  `Laudo: ${reportSelected} selecionado!`
 }
+
+function openConfigPage() {
+    // Abre a página de configuração em uma nova guia
+    window.open("config/config.html", "_blank");
+}
