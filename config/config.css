@@ -1,23 +1,57 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-  }
-  
-  *, *:before, *:after {
+}
+
+*,
+*:before,
+*:after {
     box-sizing: inherit;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
     margin: 0;
     padding: 0;
     font-weight: normal;
-  }
-  
-  ol, ul {
+}
+
+ol,
+ul {
     list-style: none;
-  }
-  
-  img {
+}
+
+img {
     max-width: 100%;
     height: auto;
-  }
+}
+
+table{
+    border: solid 1px;
+    
+}
+
+th{
+    padding-top: 3px;
+}
+
+th,td{
+    text-align: center;
+}
+
+.btn-default {
+    margin-left: 5px;
+}
+
+.btn-default:hover{
+    cursor: pointer;
+}
